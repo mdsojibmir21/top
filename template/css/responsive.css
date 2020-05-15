@@ -1,0 +1,108 @@
+/* Extra small devicesJ(portrait phones, less than 576px)*/
+@media(max-width: 575.98px){
+/*navbar*/
+	.nav-link {
+	    padding: 8px 0 !important;
+	}
+	/*navend*/
+	/*banner*/
+	.banner-content span {
+	    width: 276px;   
+	}
+	.banner-content h2 {
+	font-size: 50px;  
+}
+	#banner .row {
+	    min-height: 550px;
+	}
+	/*banner end*/
+	/*servic*/
+	.service-content{
+		font-size: 18px;s
+	}
+	.s-item{
+	padding-top: 15px;
+	}
+}
+
+
+
+/*small devicesJ(landscape phones, less than 576px and up)*/
+@media(min-width: 576px) and (max-width: 767.98px){
+/*navbar*/
+	.nav-link {
+	    padding: 8px 0 !important;
+	}
+	/*navend*/
+	/*banner*/
+	.banner-content h2 {
+		font-size: 80px;
+		padding-bottom: 20px;
+	}
+	.banner-content span{
+		width: 450px;
+	}
+	.banner-content p{
+		font-size: 18px;
+		padding: 20px 0 35px;
+	}
+	#banner .row {
+	    min-height: 500px;
+	}
+	@keyframes down{
+			0%{
+			transform: translate(5px,30px);
+		    -webkit-transform: translate(5px,30px);
+		    -moz-transform: translate(5px,30px);
+		}
+		    100%{
+			transform: translate(5px,80px);
+		    -webkit-transform: translate(5px,80px);
+		    -moz-transform: translate(5px,80px);
+		}
+}
+	/*banner*/
+	/*servic*/
+	.service-content{
+		font-size: 18px;s
+	}
+}
+
+
+
+/*Medium devicesJ(portrait phones, 1040px)*/
+@media(min-width: 768px) and (max-width: 991.98px){
+
+	/*navbar*/
+	.nav-link {
+	    padding: 8px 0 !important;
+	}
+	/*navend*/
+	/*servic*/
+	.service-content{
+		font-size: 18px;
+	}
+	.s-item{
+		padding-top:15px; 
+	}
+}
+
+
+
+
+/* Large devicesJ(portrait phones, 1200px)*/
+@media(min-width: 992px) and (max-width: 1199.98px){
+	.heading {
+		font-size: 25px;
+	}
+	
+	
+}
+
+
+
+
+/* Extra small devicesJ(portrait phones, less than 576px)*/
+@media(min-width: 1200px){
+	
+}
